@@ -84,7 +84,7 @@
                 return;
             }
             //initialze iTracker
-            window.iTracker = new imageTracker(arCamera);
+            window.iTracker = new ImageTracker(arCamera);
             try{
                 await iTracker.initialize("./opencv.js");
                 console.log("Image tracker initialized!");   
